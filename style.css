@@ -520,6 +520,41 @@ h1::after {
   background-repeat: no-repeat;
 }
 
+.terms {
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.terms a {
+  color: #000;
+  margin-right: 16px;
+}
+
+.terms a:link {
+  text-decoration: none;
+}
+
+.terms cite {
+  font-style: normal;
+}
+
+.elevator li {
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.elevator h5 {
+  margin-bottom: 14px;
+}
+
+.footer-wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 70%;
+  column-gap: 20px;
+}
+
 .presence {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -534,27 +569,6 @@ h1::after {
 .presence img {
   grid-row: auto;
   grid-column: auto;
-}
-
-.terms {
-  align-self: flex-end;
-}
-
-.footer-wrap {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 70%;
-  column-gap: 20px;
-}
-
-.elevator li {
-  font-size: 14px;
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.elevator h5 {
-  margin-bottom: 14px;
 }
 
 .footer-wrap div:nth-child(6) {
