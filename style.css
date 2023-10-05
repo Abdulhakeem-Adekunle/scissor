@@ -552,14 +552,16 @@ h1::after {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 70%;
-  column-gap: 20px;
+  column-gap: 60px;
 }
 
 .presence {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
   align-items: start;
-  justify-items: start;
+  justify-items: center;
+  height: 40px;
 }
 
 .presence img:first-child {
